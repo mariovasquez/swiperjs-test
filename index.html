@@ -1,0 +1,225 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Estofado Store</title>
+  <link rel="shortcut icon" href="https://emojitool.com/img/whatsapp/2.21.23.23/boar-1554.png" type="image/x-icon">
+  <link rel="stylesheet" href="./styles/css/index.css" />
+  <link rel="stylesheet" href="./styles/css/fe.css" />
+
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;500;600;700;800&display=swap"
+    rel="stylesheet" />
+
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.9.1/font/bootstrap-icons.css" />
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@8/swiper-bundle.min.css"/>
+</head>
+
+<body class="body">
+  <header class="header">
+    <nav class="nav">
+      <div class="container elements elements--header-nav">
+        <a href="#">
+          <img src="https://emojitool.com/img/whatsapp/2.21.23.23/boar-1554.png" alt="Logo Estofado Store" width="40"
+            height="40" class="nav__logo" />
+        </a>
+        <button class="nav__action nav__action--menu" id="navActionMenu">
+          <i class="bi bi-list"></i>
+        </button>
+        <ul class="menu menu--header">
+          <li>
+            <a href="#" class="menu__link">Productos</a>
+          </li>
+          <li>
+            <a href="#" class="menu__link">Nosotros</a>
+          </li>
+          <li>
+            <a href="#" class="menu__link">Contacto</a>
+          </li>
+          <li class="nav__action nav__action--close" id="navActionClose">
+            <i class="bi bi-x-circle"></i>
+          </li>
+        </ul>
+      </div>
+    </nav>
+  </header>
+  <main>
+    <!-- Slider main container -->
+    <section class="swiper hero-slider" id="heroSlider">
+      <!-- Additional required wrapper -->
+      <div class="swiper-wrapper">
+        <!-- Slides -->
+        <div class="swiper-slide section section--hero" style="background-image: url('https://cdn.pixabay.com/photo/2015/04/23/22/00/tree-736885__340.jpg');"></div>
+        <div class="swiper-slide section section--hero" style="background-image: url('https://cdn.pixabay.com/photo/2015/12/01/20/28/road-1072823__340.jpg');"></div>
+        <div class="swiper-slide section section--hero" style="background-image: url('https://cdn.pixabay.com/photo/2015/06/19/21/24/avenue-815297_960_720.jpg');"></div>
+      </div>
+      <!-- If we need pagination -->
+      <div class="swiper-pagination"></div>
+
+      <!-- If we need navigation buttons -->
+      <div class="swiper-button-prev"></div>
+      <div class="swiper-button-next"></div>
+
+      <!-- If we need scrollbar -->
+      <div class="swiper-scrollbar"></div>
+    </section>
+    <section class="section">
+      <div class="container elements">
+        <h2 class="section__title">Productos más vendidos</h2>
+        <!-- Slider main container -->
+        <div class="container-slider">
+          <div class="swiper-prev">
+            <i class="bi bi-arrow-left-circle-fill"></i>
+          </div>
+          <div class="slider-produtos-wrap">
+            <div class="swiper best-seller-slider" id="bestSellers">
+              <!-- Additional required wrapper -->
+              <div class="swiper-wrapper slide-container">
+                <!-- Slides -->
+                <div class="swiper-slide">
+                  <div class="card">
+                    <img src="https://josefacchin.com/wp-content/uploads/2020/02/como-quitar-el-fondo-de-una-imagen.png" alt="Imagen" height="184" width="100%" class="card__header-img" />
+                    <div class="card__body">
+                      <h4 class="card__subtitle">Chibi</h4>
+                      <h3 class="card__title">Pijama azul</h3>
+                      <h5 class="card__price-discount">S/ 99.99</h5>
+                      <h6 class="card__price" style="text-decoration:line-through;">Antes: S/ 50.00</h6>
+                      <button class="button button--primary">Comprar</button>
+                    </div>
+                  </div>
+                </div>
+                <div class="swiper-slide">
+                  <div class="card">
+                    <img src="https://josefacchin.com/wp-content/uploads/2020/02/como-quitar-el-fondo-de-una-imagen.png" alt="Imagen" height="184" width="100%" class="card__header-img" />
+                    <div class="card__body">
+                      <h4 class="card__subtitle">Chibi</h4>
+                      <h3 class="card__title">Pijama azul</h3>
+                      <h5 class="card__price-discount">S/ 99.99</h5>
+                      <h6 class="card__price" style="text-decoration:line-through;">Antes: S/ 50.00</h6>
+                      <button class="button button--primary">Comprar</button>
+                    </div>
+                  </div>
+                </div>
+                <div class="swiper-slide">
+                  <div class="card">
+                    <img src="https://josefacchin.com/wp-content/uploads/2020/02/como-quitar-el-fondo-de-una-imagen.png" alt="Imagen" height="184" width="100%" class="card__header-img" />
+                    <div class="card__body">
+                      <h4 class="card__subtitle">Chibi</h4>
+                      <h3 class="card__title">Pijama azul</h3>
+                      <h5 class="card__price-discount">S/ 99.99</h5>
+                      <h6 class="card__price" style="text-decoration:line-through;">Antes: S/ 50.00</h6>
+                      <button class="button button--primary">Comprar</button>
+                    </div>
+                  </div>
+                </div>
+                <div class="swiper-slide">
+                  <div class="card">
+                    <img src="https://josefacchin.com/wp-content/uploads/2020/02/como-quitar-el-fondo-de-una-imagen.png" alt="Imagen" height="184" width="100%" class="card__header-img" />
+                    <div class="card__body">
+                      <h4 class="card__subtitle">Chibi</h4>
+                      <h3 class="card__title">Pijama azul</h3>
+                      <h5 class="card__price-discount">S/ 99.99</h5>
+                      <h6 class="card__price" style="text-decoration:line-through;">Antes: S/ 50.00</h6>
+                      <button class="button button--primary">Comprar</button>
+                    </div>
+                  </div>
+                </div>
+                <div class="swiper-slide">
+                  <div class="card">
+                    <img src="https://josefacchin.com/wp-content/uploads/2020/02/como-quitar-el-fondo-de-una-imagen.png" alt="Imagen" height="184" width="100%" class="card__header-img" />
+                    <div class="card__body">
+                      <h4 class="card__subtitle">Chibi</h4>
+                      <h3 class="card__title">Pijama azul</h3>
+                      <h5 class="card__price-discount">S/ 99.99</h5>
+                      <h6 class="card__price" style="text-decoration:line-through;">Antes: S/ 50.00</h6>
+                      <button class="button button--primary">Comprar</button>
+                    </div>
+                  </div>
+                </div>
+                <div class="swiper-slide">
+                  <div class="card">
+                    <img src="https://josefacchin.com/wp-content/uploads/2020/02/como-quitar-el-fondo-de-una-imagen.png" alt="Imagen" height="184" width="100%" class="card__header-img" />
+                    <div class="card__body">
+                      <h4 class="card__subtitle">Chibi</h4>
+                      <h3 class="card__title">Pijama azul</h3>
+                      <h5 class="card__price-discount">S/ 99.99</h5>
+                      <h6 class="card__price" style="text-decoration:line-through;">Antes: S/ 50.00</h6>
+                      <button class="button button--primary">Comprar</button>
+                    </div>
+                  </div>
+                </div>
+                <div class="swiper-slide">
+                  <div class="card">
+                    <img src="https://josefacchin.com/wp-content/uploads/2020/02/como-quitar-el-fondo-de-una-imagen.png" alt="Imagen" height="184" width="100%" class="card__header-img" />
+                    <div class="card__body">
+                      <h4 class="card__subtitle">Chibi</h4>
+                      <h3 class="card__title">Pijama azul</h3>
+                      <h5 class="card__price-discount">S/ 99.99</h5>
+                      <h6 class="card__price" style="text-decoration:line-through;">Antes: S/ 50.00</h6>
+                      <button class="button button--primary">Comprar</button>
+                    </div>
+                  </div>
+                </div>
+                <div class="swiper-slide">
+                  <div class="card">
+                    <img src="https://josefacchin.com/wp-content/uploads/2020/02/como-quitar-el-fondo-de-una-imagen.png" alt="Imagen" height="184" width="100%" class="card__header-img" />
+                    <div class="card__body">
+                      <h4 class="card__subtitle">Chibi</h4>
+                      <h3 class="card__title">Pijama azul</h3>
+                      <h5 class="card__price-discount">S/ 99.99</h5>
+                      <h6 class="card__price" style="text-decoration:line-through;">Antes: S/ 50.00</h6>
+                      <button class="button button--primary">Comprar</button>
+                    </div>
+                  </div>
+                </div>
+                <div class="swiper-slide">
+                  <div class="card">
+                    <img src="https://josefacchin.com/wp-content/uploads/2020/02/como-quitar-el-fondo-de-una-imagen.png" alt="Imagen" height="184" width="100%" class="card__header-img" />
+                    <div class="card__body">
+                      <h4 class="card__subtitle">Chibi</h4>
+                      <h3 class="card__title">Pijama azul</h3>
+                      <h5 class="card__price-discount">S/ 99.99</h5>
+                      <h6 class="card__price" style="text-decoration:line-through;">Antes: S/ 50.00</h6>
+                      <button class="button button--primary">Comprar</button>
+                    </div>
+                  </div>
+                </div>
+                <div class="swiper-slide">
+                  <div class="card">
+                    <img src="https://josefacchin.com/wp-content/uploads/2020/02/como-quitar-el-fondo-de-una-imagen.png" alt="Imagen" height="184" width="100%" class="card__header-img" />
+                    <div class="card__body">
+                      <h4 class="card__subtitle">Chibi</h4>
+                      <h3 class="card__title">Pijama azul</h3>
+                      <h5 class="card__price-discount">S/ 99.99</h5>
+                      <h6 class="card__price" style="text-decoration:line-through;">Antes: S/ 50.00</h6>
+                      <button class="button button--primary">Comprar</button>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <!-- If we need pagination
+              <div class="swiper-pagination"></div> -->
+              <!-- If we need navigation buttons -->
+              <!-- <div class="swiper-button-prev swiper-prev"></div>
+              <div class="swiper-button-next swiper-next"></div> -->
+              <!-- If we need scrollbar
+              <div class="swiper-scrollbar"></div> -->
+            </div>
+          </div>
+          <div class="swiper-next">
+            <i class="bi bi-arrow-right-circle-fill"></i>
+          </div>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <script src="./js/index.js" type="module"></script>
+  <script src="https://cdn.jsdelivr.net/npm/swiper@8/swiper-bundle.min.js"></script>
+</body>
+
+</html>

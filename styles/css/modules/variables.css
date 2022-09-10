@@ -1,0 +1,24 @@
+:root {
+  scroll-behavior: smooth;
+  --primary-theme-color: #20232a;
+  --secondary-theme-color: #282c34;
+  --primary-shadow-color: #ffffff8;
+  --reverse-primary-shadow-color: #00000080;
+  --reverse-primary-text-color: #000;
+  --primary-text-color: #fff;
+  --primary-highlight-color: #61dafb;
+  --secondary-highlight-color: gold;
+  --primary-font-family: 'Open Sans', sans-serif;
+  --padding-container: 1rem;
+  --max-width-container: 640px;
+  --padding-section: 1.5rem;
+  --primary-border-radius: 1rem;
+}
+
+@media (min-width: 768px) {
+  :root {
+    --padding-container: 0.75rem;
+    --max-width-container: 1024px;
+    --padding-section: 2rem;
+  }
+}

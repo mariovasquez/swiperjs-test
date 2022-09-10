@@ -1,0 +1,27 @@
+.hero-slider{
+    height: 100vh;
+}
+
+.best-seller-slider{
+    width: 100%;
+}
+
+.slider-produtos-wrap {
+    width: 100%;
+}
+.swiper-prev,
+.swiper-next {
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 2rem;
+    width: 40px;
+    height: 40px;
+    border-radius: 60px;
+    z-index: 9999;
+}
+
+.slide-container{
+    max-width: 280px;
+}
